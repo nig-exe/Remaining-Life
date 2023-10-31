@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Age Timer</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input-section">
+            <h2>Calculate Your Age and Remaining Life</h2>
+            <div class="input-group">
+                <label for="dob-input">Date of Birth:</label>
+                <input id="dob-input" type="date">
+            </div>
+            <div class="input-group">
+                <label for "lifetime-input">Expected Lifetime (years):</label>
+                <input id="lifetime-input" type="number" placeholder="Enter expected lifetime">
+            </div>
+            <button id="submit">Calculate</button>
+        </div>
+        <div class="result-section">
+            <h2>Your Age</h2>
+            <p id="age"></p>
+            <h2>Remaining Life</h2>
+            <p id="remaining"></p>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
